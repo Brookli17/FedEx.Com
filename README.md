@@ -4,10 +4,10 @@ Feddx is e-commerce services provider company which is build using <B>Java</B>, 
   and front end is build using <b>HTML & CSS</b>.
 Features
 -------------------------------------------
-Add Customer 
-Update Customer 
-delete Customer
-view  Customer details 
+- Add Customer 
+- Update Customer 
+- delete Customer
+- view  Customer details 
 -------------------------------------------
 
 View Customers
