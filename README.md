@@ -1,6 +1,6 @@
-# FedEx.Com
+<h1 align="center">FedEx.Com</h1>
 
-Feddx is e-commerce services provider company which is build using Java , Spring Mvc framework, Mysql database, and front end is build using HTML & CSS.
+Feddx is e-commerce services provider company which is build using <h1>Java</h1>, <h1>Spring Mvc framework</h1>, Mysql database, and front end is build using HTML & CSS.
 Features
 -------------------------------------------
 Add Customer 
