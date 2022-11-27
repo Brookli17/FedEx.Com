@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AddCustomer</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="" />
+ <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+      <center> <h1 style="color: red"> Update Customer Details</h1></center><br>
+    <center><form  method="post" th:object="${FoundCustomer}">
+     Name:
+    <input type="text" placeholder="Enter name" name="CustomerName" required th:field="*{CustomerName}"><br><br>
+
+    Email:
+    <input type="text" placeholder="Enter email" name="CustomerEmail" required th:field="*{CustomerEmail}"><br><br>
+    
+    Contact:
+    <input type="number" placeholder="Enter no" name="CustomerContactNo" required th:field="*{CustomerContactNo}"><br><br>
+    
+    Country:
+    <select name="Country" th:field="*{Country}">
+			<option value="India">India</option>
+				<option value="Usa">USA</option>
+					<option value="Germany">Germany</option>
+						<option value="Canada">Canada</option>
+							<option value="London">London</option>
+		</select><br><br>
+		
+	 state:
+    <input type="text" placeholder="Enter State" name="state" required th:field="*{state}"><br><br>
+    
+     City:
+    <input type="text" placeholder="Enter City" name="City" required th:field="*{City}"><br><br>
+    
+     ZipCode:
+    <input type="number" placeholder="Enter Zipcode" name="Zipcode" required th:field="*{Zipcode}"><br><br>
+    
+    DateAdded:
+    <input type="date"  name="DateAdded" required th:field="*{DateAdded}"><br><br>
+    
+    
+        <button class="btn btn-success" type="submit">Update</button>
+		</form>
+		 
+		</center>
+		
+		
+		
+		
+</body>
+</html>

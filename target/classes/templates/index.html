@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Fedex</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="" />
+ <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+</head>
+<body>
+  
+ <center> <h1 style="color: red">Fedex.Pvt.ltd</h1></center>
+  <h2 style="color: blue">Customer Details</h2><hr>
+ 
+     <table class="table">
+     <tr>
+       <th>CustomerId</th>
+       <th>CustomerName</th>
+       <th>CustomerEmail</th>
+       <th>CustomerContactNo</th>
+       <th>Country</th>
+        <th>state</th>
+         <th>City</th>
+          <th>Zipcode</th>
+           <th>DateAdded</th>
+            <th colspan="3">Actions</th>
+     </tr>
+     <tr  th:each="C:${Customerlist}">
+         <td th:text="${C.CustomerId}"></td>
+                  <td th:text="${C.CustomerName}"></td>
+              <td th:text="${C.CustomerEmail}"></td>
+                   <td th:text="${C.CustomerContactNo}"></td>
+                   <td th:text="${C.Country}"></td>
+                    <td th:text="${C.state}"></td>
+                    <td th:text="${C.City}"></td>
+                    <td th:text="${C.Zipcode}"></td>
+                    <td th:text="${C.DateAdded}"></td>
+    
+                   
+                        <td ><a th:href="@{/updateCustomer/{CustomerId}(CustomerId=${C.CustomerId})}" ><i class="bi bi-pencil-square"></i></a></td>
+                            <td><a th:href="@{/delete(CustomerId=${C.CustomerId})}"><i class="bi bi-trash-fill"></i></a></td>
+         
+     </tr>
+     
+     </table>
+     <center><a href="/addCustomer" class="btn btn-success"><i class="bi bi-plus"></i>Add Customer</a></center><hr>
+     
+     
+ 
+     
+     
+    
+     
+     
+    
+
+
+</body>
+</html>
