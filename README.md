@@ -11,11 +11,14 @@ Features
 -------------------------------------------
 
 View Customers
-![image](https://user-images.githubusercontent.com/91592513/204138669-9b67ebf2-300e-4c6c-9187-a0b2256048bc.png)
+![image](https://user-images.githubusercontent.com/91592513/208919523-c88bae4b-55a4-4470-8020-c1c0febb1573.png)
+
 Add Customers
-![image](https://user-images.githubusercontent.com/91592513/204138679-4ff9945f-3c92-46f6-a763-be9549b87421.png)
+![image](https://user-images.githubusercontent.com/91592513/208919615-4913892b-1f04-4496-9ac6-7bb540d53cd3.png)
+
 Update Customers
-![image](https://user-images.githubusercontent.com/91592513/204138691-c0c6f272-1171-4608-b2e9-39b239dae361.png)
+![image](https://user-images.githubusercontent.com/91592513/208919699-38ad2116-2ae7-49b2-a240-e4c02805bd39.png)
+
 
 DataBase:
 ![image](https://user-images.githubusercontent.com/91592513/204138722-b5644892-50c0-414d-8c11-8baba419a715.png)
